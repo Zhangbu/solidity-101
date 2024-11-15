@@ -32,7 +32,7 @@ contract ArrayTypes {
     }
 }
 
-pragma solidity ^0.8.21;
+pragma solidity ^0.8.26;
 contract StructTypes {
     // 结构体 Struct
     struct Student{
@@ -65,7 +65,7 @@ contract StructTypes {
     }
 }
 
-pragma solidity ^0.8.21;
+pragma solidity ^0.8.26;
 contract EnumTypes {
     // 将uint 0， 1， 2表示为Buy, Hold, Sell
     enum ActionSet { Buy, Hold, Sell }
